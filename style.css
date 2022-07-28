@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
 
 body {
-  background-image: url("../profile/images/tile_background.png");
   background-size: cover;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
@@ -28,6 +27,10 @@ p {
   text-align: center;
   line-height: 22px;
   color: black;
+}
+
+.cards {
+  display: flex;
 }
 
 img.img-circle {
