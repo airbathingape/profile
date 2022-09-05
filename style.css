@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
 
 body {
-  background-image: url("../profile/images/tile_background.png");
   background-size: cover;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
@@ -28,6 +27,10 @@ p {
   text-align: center;
   line-height: 22px;
   color: black;
+}
+
+.cards {
+  display: flex;
 }
 
 img.img-circle {
@@ -78,8 +81,7 @@ a.btn:hover {
   background-color: rgb(255, 182, 37);
 }
 
-iner is needed to position the front and back side */
-.flip-card-inner {
+iner is needed to position the front and back side */ .flip-card-inner {
   position: relative;
   width: 100%;
   height: 100%;
@@ -89,6 +91,7 @@ iner is needed to position the front and back side */
 }
 
 @media (max-width: 960px) {
+
   /* For a screen < 960px, this CSS will be read */
   .container {
     width: 700px;
@@ -96,6 +99,7 @@ iner is needed to position the front and back side */
 }
 
 @media (max-width: 720px) {
+
   /* For a screen < 720px, this CSS will be read */
   .container {
     width: 500px;
@@ -103,6 +107,7 @@ iner is needed to position the front and back side */
 }
 
 @media (max-width: 540px) {
+
   /* For a screen < 540px, this CSS will be read */
   .container {
     width: 300px;
